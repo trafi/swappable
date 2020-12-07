@@ -67,7 +67,7 @@ public extension View {
     }
 }
 
-extension Swappable where Self: View {
+public extension Swappable where Self: View {
 
     var body: some View {
         SwappedIfNeeded<Self>(input: input, content: defaultBody)
