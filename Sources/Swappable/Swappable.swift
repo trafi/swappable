@@ -45,7 +45,6 @@ public protocol Swappable {
 
     associatedtype InputType
     var input: InputType { get }
-    init(input: InputType)
 
     associatedtype DefaultBody : View
     @ViewBuilder var defaultBody: DefaultBody { get }
